@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+body{
+    background-color: rgb(255, 237, 219);
+    font-family: 'PT Sans Narrow', sans-serif;
+    height: 30vh;
+
+}
+.wallpaper{
+    margin-left: 35%;
+    background-color: white;
+    box-shadow: 20px 10px  #FFD9BF;
+    width: 400px;
+    height: 460px;
+    border-radius: 20px;
+}
+.wallpaper ul h1 {
+    margin-left: 50px;
+    font-size: 60px;
+    color: rgb(191, 146, 112);
+    text-shadow: 3px 2px rgb(114, 88, 68);
+}
+.wallpaper ul h2{
+    margin-left: 70px;
+    font-size: 30px;
+    color: rgb(191, 146, 112);
+    text-shadow: 2px 2px rgb(146, 112, 87);
+}
+.wallpaper form ul li label {
+    font-size: 40px;
+    color: rgb(191, 146, 112);
+    text-shadow: 2px 2px rgb(146, 112, 87);
+    text-align: center;
+}
+.wallpaper form ul li input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    margin-left: 15px;
+    border-radius: 20px;
+    background-color: rgb(237, 205, 187);
+}
+.wallpaper form ul li input:hover{
+    background-color: rgb(228, 158, 117);
+}
+.wallpaper form ul li textarea{
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(237, 205, 187);
+}
+.wallpaper form ul li textarea:hover{
+    background-color: rgb(228, 158, 117);
+}
+::placeholder {
+    color: rgb(114, 88, 68);
+    font-size: 17px;
+    text-align: center;
+}
+.wallpaper form ul li button{
+    margin-left: 20px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(237, 205, 187);
+    color: rgb(191, 146, 112);
+    font-size: 17px;
+}
+.wallpaper form ul li button:hover{
+    background-color: rgb(228, 158, 117);
+    color: rgb(114, 88, 68);
+}
+
+.cards{
+    margin-left: 3%;
+    background-color: white;
+    box-shadow: 15px 12px #FFD9BF;
+    width: 400px;
+    height: 165px;
+    border-radius: 20px;
+}
+.cards h1{
+    margin-left: 5%;
+    font-size: 45px;
+    color: rgb(191, 146, 112);
+    text-shadow: 2px 2px rgb(114, 88, 68);
+}
+.cards p{
+    margin-left: 5%;
+    color: rgb(191, 146, 112);
+}
+.delete{
+    margin-left: 75%;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(237, 205, 187);
+    color: rgb(114, 88, 68);
+    font-size: 20px;
+    border: none;
+    border-radius: 14px;
+}
+.delete:hover{
+    background-color: rgb(255, 96, 96);
+    color: white;
+}
